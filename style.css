@@ -499,13 +499,6 @@ table td strong {
     color: #3b82f6;
 }
 
-.organizer .bio {
-    font-size: 0.95rem;
-    line-height: 1.75;
-    margin-bottom: 0;
-    color: #475569;
-}
-
 /* Target audience */
 #audience ul {
     list-style: none;

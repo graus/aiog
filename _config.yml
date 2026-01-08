@@ -1,0 +1,27 @@
+# Site settings
+title: AI & Open Government Workshop
+description: Using AI and LLMs to Advance Open Government and Public Disclosure Laws Worldwide
+url: https://aiog.net
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - .git
+  - .gitignore
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }} @ ICAIL 2026</title>
+    <meta name="description" content="{{ site.description }}">
+    <meta name="keywords" content="AI, open government, FOIA, freedom of information, LLM, ICAIL 2026, public disclosure, transparency, government records, sensitivity review">
+    <meta name="author" content="David Graus, Graham McDonald, Jason R. Baron">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#1a365d">
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+    <link rel="icon" type="image/svg+xml" href="{{ '/favicon.svg' | relative_url }}">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }} @ ICAIL 2026">
+    <meta property="og:description" content="{{ site.description }}">
+    <meta property="og:site_name" content="{{ site.title }}">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }} @ ICAIL 2026">
+    <meta name="twitter:description" content="{{ site.description }}">
+
+    <!-- Social Profiles -->
+    <link rel="me" href="https://bsky.app/profile/aiog.net">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Event",
+        "name": "AI & Open Government Workshop",
+        "description": "Using AI and LLMs to Advance Open Government and Public Disclosure Laws Worldwide",
+        "url": "https://aiog.net/",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "location": {
+            "@type": "Place",
+            "name": "Singapore Management University",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Singapore",
+                "addressCountry": "SG"
+            }
+        },
+        "sameAs": [
+            "https://bsky.app/profile/aiog.net"
+        ],
+        "organizer": [
+            {
+                "@type": "Person",
+                "name": "David Graus",
+                "url": "https://graus.nu",
+                "affiliation": "University of Amsterdam"
+            },
+            {
+                "@type": "Person",
+                "name": "Graham McDonald",
+                "affiliation": "University of Glasgow"
+            },
+            {
+                "@type": "Person",
+                "name": "Jason R. Baron",
+                "affiliation": "University of Maryland"
+            }
+        ],
+        "superEvent": {
+            "@type": "Event",
+            "name": "ICAIL 2026",
+            "url": "https://site.smu.edu.sg/icail-2026/"
+        },
+        "about": [
+            "Artificial Intelligence",
+            "Open Government",
+            "Freedom of Information",
+            "Public Disclosure Laws",
+            "Large Language Models"
+        ]
+    }
+    </script>
+
+    <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    {% include header.html %}
+    {% include nav.html %}
+
+    <main class="container">
+        {{ content }}
+    </main>
+
+    {% include footer.html %}
+</body>
+</html>

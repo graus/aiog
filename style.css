@@ -152,7 +152,8 @@ nav ul {
     justify-content: center;
     flex-wrap: wrap;
     gap: 6px;
-    padding: 16px 0;
+    padding: 20px 0 10px 0;
+    margin: 0;
 }
 
 nav ul li a {
@@ -199,10 +200,8 @@ nav ul li a:focus-visible {
 }
 
 /* Main content */
-main {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 60px 24px 80px;
+main.container {
+    padding: 40px 24px 40px;
 }
 
 section {
@@ -708,7 +707,7 @@ footer .bluesky-link svg {
         font-size: 0.85rem;
     }
 
-    main {
+    main.container {
         padding: 40px 16px 50px;
     }
 

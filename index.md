@@ -4,7 +4,9 @@ title: null
 permalink: /
 ---
 
-## Objectives {#objectives}
+<section id="objectives" markdown="1">
+
+## Objectives
 
 In many jurisdictions, open government and access to information laws such as Freedom of Information (FOIA) and Access to Information (ATI) require large-scale public disclosure of government records, resulting in massive, multimodal data collections whose complexity increasingly challenges both legal compliance and technical processing ([van Heusden et al., 2025](https://doi.org/10.1038/s41597-025-05052-2)). At the same time, governments face strict legal obligations to disclose information within statutory deadlines, while protecting sensitive and personal information. This raises AI & Law questions about how to operationalise legal standards for disclosure, sensitivity, and privacy in AI systems, and how to ensure auditability, explainability, and accountability of AI-assisted disclosure workflows.
 
@@ -15,7 +17,11 @@ The AI & Open Government workshop will focus on how modern AI tools and techniqu
 
 The workshop will solicit written submissions, including original research papers and position papers offering insights from practice, and will facilitate structured dialogue to advance shared understanding of the uses, risks, and opportunities of AI in open government contexts. Papers will be peer-reviewed by the workshop's program committee and published in CEUR Workshop Proceedings.
 
-## Workshop Structure {#workshop-structure}
+</section>
+
+<section id="workshop-structure" markdown="1">
+
+## Workshop Structure
 
 The workshop will be held as a full-day pre-conference event, structured in four parts:
 
@@ -38,6 +44,12 @@ The workshop will be held as a full-day pre-conference event, structured in four
     </div>
 </div>
 
-## Previous Editions {#previous}
+</section>
+
+<section id="previous" markdown="1">
+
+## Previous Editions
 
 This workshop continues a well-established ICAIL tradition of AI for large-scale legal document analysis, initiated by the Discovery of Electronically Stored Information (DESI) workshops (2007–2017) and later extended by the Legal AI and Intelligent Assistance (Legal AIIA) workshops (2019–2023). These workshops brought together lawyers, legal professionals, information science scholars, and industry representatives to study AI methods for identifying responsive records in litigation and regulatory contexts. AI & Open Government builds on this background but shifts the focus to open government and public disclosure regimes, where the legal standards, stakeholders, and risks differ from e-discovery, and where public access, transparency, and democratic accountability are central concerns.
+
+</section>

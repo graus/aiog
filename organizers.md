@@ -4,7 +4,9 @@ title: Organizers
 permalink: /organizers/
 ---
 
-## Organizers {#organizers}
+<section id="organizers" markdown="1">
+
+## Organizers
 
 <div class="organizers-list">
     <div class="organizer">
@@ -24,10 +26,20 @@ permalink: /organizers/
     </div>
 </div>
 
-## Program Committee {#program-committee}
+</section>
+
+<section id="program-committee" markdown="1">
+
+## Program Committee
 
 TBA
 
-## Contact {#contact}
+</section>
+
+<section id="contact" markdown="1">
+
+## Contact
 
 For questions and inquiries, please contact us at the emails listed above.
+
+</section>

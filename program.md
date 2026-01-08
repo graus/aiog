@@ -4,6 +4,10 @@ title: Program
 permalink: /program/
 ---
 
-## Program {#program}
+<section id="program" markdown="1">
+
+## Program
 
 The detailed program will be announced after paper acceptance notifications.
+
+</section>

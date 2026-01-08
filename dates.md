@@ -4,7 +4,9 @@ title: Important Dates
 permalink: /dates/
 ---
 
-## Important Dates {#dates}
+<section id="dates" markdown="1">
+
+## Important Dates
 
 | | |
 |---|---|
@@ -12,3 +14,5 @@ permalink: /dates/
 | Notification of acceptance | **TBA** |
 | Camera-ready deadline | **TBA** |
 | Workshop date | **TBA (co-located with ICAIL 2026)** |
+
+</section>

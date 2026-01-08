@@ -4,7 +4,9 @@ title: Topics
 permalink: /topics/
 ---
 
-## Topics {#topics}
+<section id="topics" markdown="1">
+
+## Topics
 
 Topics include, but are not limited to:
 
@@ -20,3 +22,5 @@ Topics include, but are not limited to:
 - Automated classification for government records retention
 - Retrieval Augmented Generation (RAG) architectures and generative AI for public government records and cultural heritage archives
 - AI-assisted declassification of government records for public release
+
+</section>

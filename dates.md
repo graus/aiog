@@ -10,8 +10,8 @@ permalink: /dates/
 
 | | |
 |---|---|
-| Paper submission deadline | **April 19, 2026** |
-| Notification of acceptance | **May 3, 2026** |
+| Paper submission deadline | **April 9, 2026** |
+| Notification of acceptance | **May 1, 2026** |
 | Camera-ready deadline | **May 20, 2026** |
 | Workshop date | **June 8 or June 12 (co-located with ICAIL 2026)** |
 

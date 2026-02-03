@@ -118,9 +118,12 @@ header h1 a:hover {
 
 /* Header logo */
 .logo-link {
-    display: inline-block;
+    display: block;
     border-bottom: none;
     margin-bottom: 20px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .logo-link:hover {
@@ -128,7 +131,6 @@ header h1 a:hover {
 }
 
 svg.header-logo {
-    max-width: 600px;
     width: 100%;
     height: auto;
     display: block;
@@ -870,7 +872,7 @@ footer .bluesky-link svg {
         letter-spacing: -1px;
     }
 
-    .header-logo {
+    .logo-link {
         max-width: 380px;
     }
 

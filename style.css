@@ -128,7 +128,7 @@ header h1 a:hover {
 }
 
 svg.header-logo {
-    max-width: 400px;
+    max-width: 500px;
     width: 100%;
     height: auto;
     display: block;
@@ -871,7 +871,7 @@ footer .bluesky-link svg {
     }
 
     .header-logo {
-        max-width: 280px;
+        max-width: 320px;
     }
 
     header .subtitle {

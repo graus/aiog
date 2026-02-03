@@ -5,8 +5,34 @@
 </div>
 <header>
     <div class="container">
-        <a href="{{ '/' | relative_url }}" class="logo-link">
-            <img src="{{ '/logo.svg' | relative_url }}" alt="AI & Open Government Workshop" class="header-logo">
+        <a href="{{ '/' | relative_url }}" class="logo-link" aria-label="AI & Open Government Workshop - Home">
+            <svg xmlns="http://www.w3.org/2000/svg" class="header-logo" viewBox="0 0 477.94 133.85" role="img" aria-label="AI & OG logo">
+              <defs>
+                <style>
+                  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&amp;display=swap');
+                  @font-face {
+                    font-family: 'OpenGov Sans';
+                    src: url('/fonts/OpenGov-Sans-V1.woff2') format('woff2');
+                    font-weight: normal;
+                    font-style: normal;
+                  }
+                  .logo-ai-text { font-family: 'Montserrat', sans-serif; font-weight: 900; font-size: 143px; fill: #ffffff; }
+                  .logo-ampersand { font-family: 'Montserrat', sans-serif; font-weight: 400; font-size: 144px; fill: rgba(255, 255, 255, 0.7); }
+                  .logo-og-text { font-family: 'OpenGov Sans', 'Montserrat', sans-serif; font-weight: 400; font-size: 128px; fill: #3b82f6; stroke: #3b82f6; stroke-width: 1px; }
+                  .logo-bar { fill: url(#logoBarGradient); }
+                  .logo-subtitle { font-family: 'Montserrat', sans-serif; font-weight: 400; font-size: 14px; fill: #ffffff; }
+                </style>
+                <linearGradient id="logoBarGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                  <stop offset="0%" style="stop-color:#3b82f6"/>
+                  <stop offset="100%" style="stop-color:#8b5cf6"/>
+                </linearGradient>
+              </defs>
+              <rect class="logo-bar" x="0" y="118.6" width="478" height="15.25"/>
+              <text class="logo-subtitle" x="3" y="129.9">ARTIFICIAL INTELLIGENCE AND OPEN GOVERNMENT WORKSHOP</text>
+              <text class="logo-ai-text" x="6" y="101.92">AI</text>
+              <text class="logo-ampersand" x="171.31" y="101.92">&amp;</text>
+              <text class="logo-og-text" x="267.64" y="101.92">OG</text>
+            </svg>
         </a>
         <h1 class="visually-hidden">AI & Open Government Workshop</h1>
         <p class="subtitle">Using AI and LLMs to Advance Open Government and Public Disclosure Laws Worldwide</p>

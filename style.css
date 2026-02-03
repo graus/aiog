@@ -127,10 +127,11 @@ header h1 a:hover {
     opacity: 0.9;
 }
 
-.header-logo {
+svg.header-logo {
     max-width: 400px;
     width: 100%;
     height: auto;
+    display: block;
 }
 
 /* Visually hidden but accessible */

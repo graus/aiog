@@ -5,6 +5,14 @@
       /* Import Google Fonts */
       @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&amp;display=swap');
 
+      /* OpenGov Sans font */
+      @font-face {
+        font-family: 'OpenGov Sans';
+        src: url('https://aiog.net/fonts/OpenGov-Sans-V1.woff2') format('woff2');
+        font-weight: normal;
+        font-style: normal;
+      }
+
       /* Logo text styles - adapted for dark header */
       .ai-text {
         font-family: 'Montserrat', sans-serif;

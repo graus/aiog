@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="477.94" height="133.85" viewBox="0 0 477.94 133.85">
+  <defs>
+    <style>
+      /* Import Google Fonts */
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&amp;display=swap');
+
+      /* Logo text styles - adapted for dark header */
+      .ai-text {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 900;
+        font-size: 143px;
+        fill: #ffffff;
+      }
+
+      .ampersand {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 144px;
+        fill: rgba(255, 255, 255, 0.7);
+      }
+
+      .og-text {
+        font-family: 'OpenGov Sans', 'Montserrat', 'Arial', sans-serif;
+        font-weight: 400;
+        font-size: 128px;
+        fill: #3b82f6;
+        stroke: #3b82f6;
+        stroke-width: 1px;
+      }
+
+      /* Redaction bar - accent gradient */
+      .redaction-bar {
+        fill: url(#barGradient);
+      }
+
+      /* Subtitle text */
+      .subtitle {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        fill: #ffffff;
+      }
+    </style>
+    <linearGradient id="barGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3b82f6"/>
+      <stop offset="100%" style="stop-color:#8b5cf6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Redaction bar -->
+  <rect class="redaction-bar" x="0" y="118.6" width="478" height="15.25"/>
+
+  <!-- Subtitle text on redaction bar -->
+  <text class="subtitle" x="3" y="129.9">ARTIFICIAL INTELLIGENCE AND OPEN GOVERNMENT WORKSHOP</text>
+
+  <!-- Main logo -->
+  <text class="ai-text" x="6" y="101.92">AI</text>
+  <text class="ampersand" x="171.31" y="101.92">&amp;</text>
+  <text class="og-text" x="267.64" y="101.92">OG</text>
+</svg>

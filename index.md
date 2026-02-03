@@ -4,6 +4,33 @@ title: null
 permalink: /
 ---
 
+<section id="latest-news" class="latest-news">
+<h2>Latest News</h2>
+<p>Follow us on <a href="https://bsky.app/profile/aiog.net" target="_blank" rel="me">Bluesky</a> for updates.</p>
+<div class="bluesky-feed" id="bluesky-feed">
+<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:urcc74g27zzlvp5xuz3ht5yh/app.bsky.feed.post/3mbu5uf2i2s2o" data-bluesky-cid="bafyreidhhqiemzz3rc34dansg7stt27dcglxarqdcwv2locytpcsznm3dq" data-bluesky-embed-color-mode="system"><p lang="en">Welcome to our Bluesky account! We are happy our AI &amp; Open Government workshop proposal was accepted as a full day event at ICAIL 2026, the 21st International Conference on Artificial Intelligence and Law, to be held June 8-12, in Singapore 🇸🇬!
+
+➡️ See aiog.net for more details
+
+#AI #OpenGov #Law<br><br><a href="https://bsky.app/profile/did:plc:urcc74g27zzlvp5xuz3ht5yh/post/3mbu5uf2i2s2o?ref_src=embed">[image or embed]</a></p>&mdash; AI &amp; Open Government Workshop @ ICAIL 2026 (<a href="https://bsky.app/profile/did:plc:urcc74g27zzlvp5xuz3ht5yh?ref_src=embed">@aiog.net</a>) <a href="https://bsky.app/profile/did:plc:urcc74g27zzlvp5xuz3ht5yh/post/3mbu5uf2i2s2o?ref_src=embed">7 januari 2026 om 20:04</a></blockquote>
+</div>
+</section>
+
+<div class="dates-widget" markdown="1">
+
+### Important Dates
+
+| | |
+|---|---|
+| Paper submission deadline | **April 19, 2026** |
+| Notification of acceptance | **May 3, 2026** |
+| Camera-ready deadline | **May 20, 2026** |
+| Workshop date | **June 8 or 12, 2026** |
+
+[View all dates](/dates/)
+
+</div>
+
 <section id="objectives" markdown="1">
 
 ## Objectives

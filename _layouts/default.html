@@ -84,6 +84,7 @@
     }
     </script>
 
+    <script>if (location.hash === '#content') document.write('<style>html{scroll-behavior:auto!important}</style>');</script>
     <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -93,10 +94,20 @@
     {% include header.html %}
     {% include nav.html %}
 
-    <main class="container">
+    <main id="content" class="container">
         {{ content }}
     </main>
 
     {% include footer.html %}
+
+    <script>
+    if (location.hash === '#content') {
+        addEventListener('load', () => {
+            history.replaceState(null, '', location.pathname);
+            document.documentElement.style.scrollBehavior = '';
+        });
+    }
+    </script>
+    <script src="https://embed.bsky.app/static/embed.js" async></script>
 </body>
 </html>

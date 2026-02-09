@@ -42,7 +42,7 @@ The AI & Open Government workshop will focus on how modern AI tools and techniqu
 1. AI tools and techniques for improving search, exploration, and understanding of public government information, and
 2. AI for assisting governments in improved accessibility, pre-processing, metadata enrichment, retrieval, filtering, and protecting sensitive information consistent with public disclosure laws prior to release.
 
-The workshop will solicit written submissions, including original research papers and position papers offering insights from practice, and will facilitate structured dialogue to advance shared understanding of the uses, risks, and opportunities of AI in open government contexts. Papers will be peer-reviewed by the workshop's program committee and published in CEUR Workshop Proceedings.
+The workshop will solicit written submissions, including original research papers and position papers offering insights from practice, and will facilitate structured dialogue to advance shared understanding of the uses, risks, and opportunities of AI in open government contexts. Papers will be peer-reviewed by the workshop's program committee and published in OpenReview proceedings.
 
 </section>
 

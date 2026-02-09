@@ -11,7 +11,7 @@ permalink: /organizers/
 <div class="organizers-list">
     <div class="organizer">
         <h3><a href="https://graus.nu" target="_blank">David Graus</a></h3>
-        <p class="affiliation">University of Amsterdam</p>
+        <p class="affiliation">University of Amsterdam & <a href="https://opengov.nl/" target="_blank">ICAI OpenGov Lab</a></p>
         <p class="email"><a href="mailto:d.p.graus@uva.nl">d.p.graus@uva.nl</a></p>
     </div>
     <div class="organizer">

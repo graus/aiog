@@ -14,3 +14,7 @@
   url: /organizers/
 - title: Audience
   url: /audience/
+- title: Submit
+  url: https://submit.aiog.net
+  cta: true
+  external: true

@@ -253,6 +253,25 @@ nav ul li a:focus-visible {
     outline-offset: 2px;
 }
 
+nav ul li a.cta-btn {
+    background: #3b82f6;
+    color: #ffffff;
+    border-radius: 6px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    padding: 8px 22px;
+}
+
+nav ul li a.cta-btn::after {
+    display: none;
+}
+
+nav ul li a.cta-btn:hover,
+nav ul li a.cta-btn:focus {
+    background: #2563eb;
+    color: #ffffff;
+}
+
 /* Main content */
 main.container {
     padding: 40px 24px 40px;

@@ -73,7 +73,7 @@ Authors of accepted papers will be invited to present their work in person in Si
 
 | | |
 |---|---|
-| Paper submission deadline | **April 9, 2026** |
+| Paper submission deadline | **~~April 9~~ April 16, 2026** |
 | Notification of acceptance | **May 1, 2026** |
 | Camera-ready deadline | **May 20, 2026** |
 | Workshop date | **June 8, 2026** |

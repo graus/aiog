@@ -8,6 +8,6 @@ permalink: /program/
 
 ## Program
 
-The detailed program will be announced after paper acceptance notifications.
+The detailed schedule will be announced in the coming weeks. See the list of [accepted papers](/accepted-papers/).
 
 </section>

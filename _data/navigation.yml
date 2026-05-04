@@ -6,15 +6,11 @@
   url: /topics/
 - title: Dates
   url: /dates/
-- title: Submission
-  url: /submission/
+- title: Accepted Papers
+  url: /accepted-papers/
 - title: Program
   url: /program/
 - title: Organizers
   url: /organizers/
 - title: Audience
   url: /audience/
-- title: Submit
-  url: https://submit.aiog.net
-  cta: true
-  external: true

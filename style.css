@@ -71,7 +71,7 @@ header {
         linear-gradient(135deg, rgba(15, 23, 42, 0.85) 0%, rgba(30, 58, 95, 0.8) 50%, rgba(30, 64, 175, 0.75) 100%),
         url('header.jpg') center/cover no-repeat;
     color: #ffffff;
-    padding: 120px 20px 100px;
+    padding: 56px 20px 48px;
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -120,7 +120,7 @@ header h1 a:hover {
 .logo-link {
     display: block;
     border-bottom: none;
-    margin-bottom: 36px;
+    margin-bottom: 20px;
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
@@ -153,9 +153,9 @@ header .subtitle {
     font-size: 1.1rem;
     color: rgba(255, 255, 255, 0.9);
     max-width: 600px;
-    margin: 0 auto 36px;
+    margin: 0 auto 20px;
     font-weight: 400;
-    line-height: 1.7;
+    line-height: 1.6;
     letter-spacing: 0.01em;
 }
 
@@ -186,8 +186,8 @@ header .venue a:focus {
 header .conference-details {
     font-size: 0.95rem;
     color: rgba(255, 255, 255, 0.75);
-    margin-top: 16px;
-    line-height: 1.6;
+    margin-top: 12px;
+    line-height: 1.5;
 }
 
 /* Navigation - Sleek floating style */
@@ -989,7 +989,7 @@ footer .bluesky-link svg {
     }
 
     header {
-        padding: 70px 20px 60px;
+        padding: 36px 20px 32px;
     }
 
     header h1 {

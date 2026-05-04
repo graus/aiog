@@ -765,13 +765,11 @@ table td strong {
 
 /* Accepted papers */
 .paper-list {
-    list-style: none;
     counter-reset: paper;
-    margin-left: 0;
-    padding-left: 0;
     display: flex;
     flex-direction: column;
     gap: 14px;
+    margin: 8px 0 16px;
 }
 
 .paper-list .paper {

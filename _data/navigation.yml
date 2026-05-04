@@ -4,9 +4,12 @@
   url: /cfp/
 - title: Dates
   url: /dates/
-- title: Accepted Papers
-  url: /accepted-papers/
 - title: Program
   url: /program/
+  children:
+    - title: Keynotes
+      url: /keynotes/
+    - title: Accepted Papers
+      url: /accepted-papers/
 - title: Organizers
   url: /organizers/

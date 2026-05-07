@@ -1090,10 +1090,12 @@ footer .bluesky-link svg {
         display: contents;
         visibility: visible;
         opacity: 1;
+        pointer-events: auto;
     }
 
     nav ul.submenu li {
         width: auto;
+        pointer-events: auto;
     }
 
     nav ul.submenu li a {
@@ -1101,6 +1103,7 @@ footer .bluesky-link svg {
         padding: 8px 14px;
         font-size: 0.85rem;
         opacity: 0.85;
+        pointer-events: auto;
     }
 
     .submenu-caret {

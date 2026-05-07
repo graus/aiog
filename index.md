@@ -7,8 +7,8 @@ permalink: /
 <section id="latest-news" class="latest-news">
 <h2>Latest News</h2>
 <p>Follow us on <a href="https://bsky.app/profile/aiog.net" target="_blank" rel="me">Bluesky</a> for updates.</p>
-<div class="bluesky-feed" id="bluesky-feed" data-bluesky-actor="aiog.net" data-bluesky-show="3">
-<p class="bluesky-loading">Loading recent posts…</p>
+<div class="bluesky-feed" id="bluesky-feed">
+<p class="bluesky-loading">Loading latest post…</p>
 </div>
 </section>
 
@@ -16,43 +16,74 @@ permalink: /
 (function() {
     var container = document.getElementById('bluesky-feed');
     if (!container) return;
-    var actor = container.dataset.blueskyActor;
-    var show = parseInt(container.dataset.blueskyShow, 10) || 3;
-    var profileUrl = 'https://bsky.app/profile/' + actor;
-
+    var actor = 'aiog.net';
     var url = 'https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed'
         + '?actor=' + encodeURIComponent(actor)
-        + '&limit=' + (show + 5)
-        + '&filter=posts_no_replies';
+        + '&limit=10&filter=posts_no_replies';
 
     fetch(url)
         .then(function(r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
         .then(function(data) {
-            var seen = {};
-            var posts = [];
-            (data.feed || []).forEach(function(item) {
-                var post = item.post;
-                var reason = item.reason;
-                if (reason && reason.$type === 'app.bsky.feed.defs#reasonRepost'
-                    && reason.by && post.author && reason.by.did === post.author.did) return;
-                if (seen[post.uri]) return;
-                seen[post.uri] = 1;
-                if (posts.length < show) posts.push(post);
+            var post = null;
+            (data.feed || []).some(function(item) {
+                if (item.reason) return false;
+                post = item.post;
+                return true;
             });
-            container.innerHTML = '';
-            if (posts.length === 0) {
-                container.textContent = 'No recent posts.';
+            if (!post) {
+                container.innerHTML = '';
                 return;
             }
-            posts.forEach(function(p) { container.appendChild(renderPost(p)); });
+            var rkey = post.uri.split('/').pop();
+            var did = post.author.did;
+            var handle = post.author.handle;
+            var displayName = post.author.displayName || handle;
+            var profileUrl = 'https://bsky.app/profile/' + did + '?ref_src=embed';
+            var postUrl = 'https://bsky.app/profile/' + did + '/post/' + rkey + '?ref_src=embed';
+            var date = new Date(post.record.createdAt);
+            var dateText = isNaN(date) ? '' : date.toLocaleDateString('en-US', {
+                day: 'numeric', month: 'long', year: 'numeric'
+            });
+
+            var bq = document.createElement('blockquote');
+            bq.className = 'bluesky-embed';
+            bq.setAttribute('data-bluesky-uri', post.uri);
+            bq.setAttribute('data-bluesky-cid', post.cid);
+            bq.setAttribute('data-bluesky-embed-color-mode', 'system');
+
+            var p = document.createElement('p');
+            var langs = post.record.langs;
+            p.setAttribute('lang', (langs && langs[0]) || 'en');
+            p.textContent = post.record.text || '';
+            bq.appendChild(p);
+
+            bq.appendChild(document.createTextNode(' — ' + displayName + ' ('));
+            var profA = document.createElement('a');
+            profA.href = profileUrl;
+            profA.textContent = '@' + handle;
+            bq.appendChild(profA);
+            bq.appendChild(document.createTextNode(') '));
+            var dateA = document.createElement('a');
+            dateA.href = postUrl;
+            dateA.textContent = dateText;
+            bq.appendChild(dateA);
+
+            container.innerHTML = '';
+            container.appendChild(bq);
+
+            var s = document.createElement('script');
+            s.src = 'https://embed.bsky.app/static/embed.js';
+            s.async = true;
+            s.charset = 'utf-8';
+            document.body.appendChild(s);
         })
         .catch(function() {
             container.innerHTML = '';
             var p = document.createElement('p');
             p.className = 'bluesky-error';
-            p.appendChild(document.createTextNode('Could not load posts. '));
+            p.appendChild(document.createTextNode('Could not load latest post. '));
             var a = document.createElement('a');
-            a.href = profileUrl;
+            a.href = 'https://bsky.app/profile/aiog.net';
             a.target = '_blank';
             a.rel = 'noopener';
             a.textContent = 'View on Bluesky';
@@ -60,101 +91,6 @@ permalink: /
             p.appendChild(document.createTextNode('.'));
             container.appendChild(p);
         });
-
-    function renderPost(post) {
-        var card = document.createElement('article');
-        card.className = 'bluesky-post';
-        var rkey = post.uri.split('/').pop();
-        var postUrl = 'https://bsky.app/profile/' + post.author.handle + '/post/' + rkey;
-
-        var text = document.createElement('div');
-        text.className = 'bluesky-post__text';
-        appendFacetedText(text, post.record.text || '', post.record.facets || []);
-        card.appendChild(text);
-
-        var embed = post.embed;
-        if (embed && embed.$type === 'app.bsky.embed.images#view' && embed.images) {
-            var row = document.createElement('div');
-            row.className = 'bluesky-post__images';
-            embed.images.slice(0, 4).forEach(function(img) {
-                var link = document.createElement('a');
-                link.href = postUrl;
-                link.target = '_blank';
-                link.rel = 'noopener';
-                var i = document.createElement('img');
-                i.src = img.thumb;
-                i.alt = img.alt || '';
-                i.loading = 'lazy';
-                link.appendChild(i);
-                row.appendChild(link);
-            });
-            card.appendChild(row);
-        }
-
-        var footer = document.createElement('div');
-        footer.className = 'bluesky-post__footer';
-        var fLink = document.createElement('a');
-        fLink.href = postUrl;
-        fLink.target = '_blank';
-        fLink.rel = 'noopener';
-        fLink.textContent = formatDate(post.record.createdAt);
-        footer.appendChild(fLink);
-        card.appendChild(footer);
-        return card;
-    }
-
-    function appendFacetedText(parent, text, facets) {
-        var enc = new TextEncoder();
-        var dec = new TextDecoder();
-        var bytes = enc.encode(text);
-        var sorted = (facets || []).slice().sort(function(a, b) {
-            return a.index.byteStart - b.index.byteStart;
-        });
-        var cursor = 0;
-        sorted.forEach(function(f) {
-            var bs = f.index.byteStart, be = f.index.byteEnd;
-            if (bs > cursor) parent.appendChild(document.createTextNode(dec.decode(bytes.slice(cursor, bs))));
-            var seg = dec.decode(bytes.slice(bs, be));
-            var feats = f.features || [];
-            var link = find(feats, 'app.bsky.richtext.facet#link');
-            var tag = find(feats, 'app.bsky.richtext.facet#tag');
-            var mention = find(feats, 'app.bsky.richtext.facet#mention');
-            if (link) parent.appendChild(makeLink(seg, link.uri));
-            else if (tag) parent.appendChild(makeLink(seg, 'https://bsky.app/hashtag/' + encodeURIComponent(tag.tag)));
-            else if (mention) parent.appendChild(makeLink(seg, 'https://bsky.app/profile/' + mention.did));
-            else parent.appendChild(document.createTextNode(seg));
-            cursor = be;
-        });
-        if (cursor < bytes.length) parent.appendChild(document.createTextNode(dec.decode(bytes.slice(cursor))));
-    }
-
-    function find(arr, type) {
-        for (var i = 0; i < arr.length; i++) if (arr[i].$type === type) return arr[i];
-        return null;
-    }
-
-    function makeLink(text, href) {
-        var a = document.createElement('a');
-        a.href = href;
-        a.target = '_blank';
-        a.rel = 'noopener';
-        a.textContent = text;
-        return a;
-    }
-
-    function formatDate(iso) {
-        var d = new Date(iso);
-        if (isNaN(d)) return '';
-        var now = new Date();
-        var diff = now - d;
-        var day = 86400000;
-        if (diff < day) return 'today';
-        if (diff < 2 * day) return 'yesterday';
-        if (diff < 7 * day) return Math.floor(diff / day) + 'd ago';
-        var opts = { month: 'short', day: 'numeric' };
-        if (d.getFullYear() !== now.getFullYear()) opts.year = 'numeric';
-        return d.toLocaleDateString('en-US', opts);
-    }
 })();
 </script>
 

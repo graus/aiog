@@ -453,7 +453,7 @@ section#objectives ol li {
     background: rgba(255, 255, 255, 0.9);
     backdrop-filter: blur(10px);
     border-radius: 16px;
-    padding: 22px 28px;
+    padding: 28px 36px;
     margin-bottom: 32px;
     border: 1px solid rgba(0, 133, 255, 0.15);
     box-shadow:
@@ -463,9 +463,9 @@ section#objectives ol li {
 
 .latest-news h2 {
     font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
-    font-size: 0.95rem;
+    font-size: 1rem;
     color: #0085ff;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
     font-weight: 600;
     letter-spacing: 0.5px;
     text-transform: uppercase;
@@ -477,9 +477,8 @@ section#objectives ol li {
 }
 
 .latest-news > p {
-    margin-bottom: 12px;
+    margin-bottom: 16px;
     color: #334155;
-    font-size: 0.92rem;
 }
 
 .latest-news > p a {
@@ -494,75 +493,28 @@ section#objectives ol li {
 .bluesky-feed {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 16px;
 }
 
 .bluesky-loading,
 .bluesky-error {
     margin: 0;
     color: #64748b;
-    font-size: 0.88rem;
+    font-size: 0.9rem;
 }
 
-.bluesky-post {
+.bluesky-feed blockquote {
+    margin: 0;
     border-left: 3px solid #0085ff;
+    padding-left: 16px;
     background: #f8fafc;
     border-radius: 0 8px 8px 0;
-    padding: 8px 12px;
-}
-
-.bluesky-post__text {
-    color: #334155;
-    font-size: 0.9rem;
-    line-height: 1.45;
-    white-space: pre-wrap;
-    word-wrap: break-word;
-    overflow-wrap: anywhere;
-}
-
-.bluesky-post__text a {
-    color: #0085ff;
-}
-
-.bluesky-post__text a:hover {
-    color: #0066cc;
-    text-decoration: underline;
-}
-
-.bluesky-post__images {
-    display: flex;
-    gap: 6px;
-    margin-top: 8px;
-    flex-wrap: wrap;
-}
-
-.bluesky-post__images img {
-    width: 60px;
-    height: 60px;
-    object-fit: cover;
-    border-radius: 6px;
-    display: block;
-}
-
-.bluesky-post__footer {
-    margin-top: 6px;
-    font-size: 0.75rem;
-    color: #64748b;
-}
-
-.bluesky-post__footer a {
-    color: #64748b;
-    text-decoration: none;
-}
-
-.bluesky-post__footer a:hover {
-    color: #0085ff;
-    text-decoration: underline;
+    padding: 12px 16px;
 }
 
 @media (max-width: 768px) {
     .latest-news {
-        padding: 18px 20px;
+        padding: 22px 24px;
     }
 }
 

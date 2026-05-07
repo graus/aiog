@@ -1136,9 +1136,18 @@ footer .bluesky-link svg {
     nav ul li.has-submenu,
     nav ul.submenu {
         display: contents;
+        visibility: visible;
+        opacity: 1;
+    }
+
+    nav ul.submenu li {
+        width: auto;
     }
 
     nav ul.submenu li a {
+        display: inline-block;
+        padding: 8px 14px;
+        font-size: 0.85rem;
         opacity: 0.85;
     }
 

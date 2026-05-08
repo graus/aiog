@@ -2,6 +2,7 @@
 layout: default
 title: Organizers
 permalink: /organizers/
+description: Organizers and program committee of the 1st AI & Open Government Workshop (AIOG) at ICAIL 2026, Singapore.
 ---
 
 <section id="organizers" markdown="1">
@@ -88,3 +89,191 @@ permalink: /organizers/
 For questions and inquiries, please contact us at the emails listed above.
 
 </section>
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "ItemList",
+            "@id": "https://aiog.net/organizers/#organizers",
+            "name": "Workshop Organizers",
+            "description": "Organizers of the AI & Open Government Workshop at ICAIL 2026.",
+            "itemListOrder": "https://schema.org/ItemListUnordered",
+            "numberOfItems": 3,
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@type": "Person",
+                        "name": "David Graus",
+                        "url": "https://graus.nu",
+                        "email": "d.p.graus@uva.nl",
+                        "jobTitle": "Workshop Organizer",
+                        "affiliation": [
+                            { "@type": "Organization", "name": "University of Amsterdam", "url": "https://uva.nl" },
+                            { "@type": "Organization", "name": "ICAI OpenGov Lab", "url": "https://opengov.nl/" }
+                        ]
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Graham McDonald",
+                        "url": "https://www.dcs.gla.ac.uk/~graham/",
+                        "email": "graham.mcdonald@glasgow.ac.uk",
+                        "jobTitle": "Workshop Organizer",
+                        "affiliation": { "@type": "Organization", "name": "University of Glasgow", "url": "https://www.gla.ac.uk/" }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Jason R. Baron",
+                        "url": "https://ischool.umd.edu/directory/jason-r-baron/",
+                        "email": "jrbaron@umd.edu",
+                        "jobTitle": "Workshop Organizer",
+                        "affiliation": { "@type": "Organization", "name": "University of Maryland", "url": "https://umd.edu/" }
+                    }
+                }
+            ]
+        },
+        {
+            "@type": "ItemList",
+            "@id": "https://aiog.net/organizers/#program-committee",
+            "name": "Program Committee",
+            "description": "Program committee of the AI & Open Government Workshop at ICAIL 2026.",
+            "itemListOrder": "https://schema.org/ItemListOrderAscending",
+            "numberOfItems": 11,
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Lauren Harper",
+                        "url": "https://freedom.press/people/lauren-harper/",
+                        "jobTitle": "Program Committee Member",
+                        "affiliation": { "@type": "Organization", "name": "Freedom of the Press Foundation" }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Maik Larooij",
+                        "url": "https://openreview.net/profile?id=~Maik_Larooij1",
+                        "jobTitle": "Program Committee Member",
+                        "affiliation": { "@type": "Organization", "name": "University of Amsterdam" }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Daniel W. Linna Jr.",
+                        "url": "https://openreview.net/profile?id=~Daniel_W._Linna_Jr.1",
+                        "jobTitle": "Program Committee Member",
+                        "affiliation": { "@type": "Organization", "name": "Northwestern University" }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 4,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Maarten Marx",
+                        "url": "https://openreview.net/profile?id=~Maarten_Marx2",
+                        "jobTitle": "Program Committee Member",
+                        "affiliation": { "@type": "Organization", "name": "University of Amsterdam" }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 5,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Jeremy Pickens",
+                        "url": "https://elevate.law/team/jeremy-pickens/",
+                        "jobTitle": "Program Committee Member",
+                        "affiliation": { "@type": "Organization", "name": "Elevate" }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 6,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Anne Schuth",
+                        "url": "https://openreview.net/profile?id=~Anne_Schuth2",
+                        "jobTitle": "Program Committee Member",
+                        "affiliation": { "@type": "Organization", "name": "Ministry of the Interior and Kingdom Relations (MinBZK), Netherlands" }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 7,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Daniel Schuman",
+                        "url": "https://openreview.net/profile?id=~Daniel_Schuman1",
+                        "jobTitle": "Program Committee Member",
+                        "affiliation": { "@type": "Organization", "name": "American Governance Institute" }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 8,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Jyothi Vinjumur",
+                        "url": "https://openreview.net/profile?id=~Jyothi_Vinjumur1",
+                        "jobTitle": "Program Committee Member",
+                        "affiliation": { "@type": "Organization", "name": "University of Texas at Austin" }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 9,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Tim Vos-Goedhart",
+                        "url": "https://openstate.eu/nl/over-ons/team-nl/",
+                        "jobTitle": "Program Committee Member",
+                        "affiliation": { "@type": "Organization", "name": "Open State Foundation" }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 10,
+                    "item": {
+                        "@type": "Person",
+                        "name": "William Webber",
+                        "url": "https://openreview.net/profile?id=~William_Edward_Webber1",
+                        "jobTitle": "Program Committee Member",
+                        "affiliation": { "@type": "Organization", "name": "Merlin Search Technologies" }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 11,
+                    "item": {
+                        "@type": "Person",
+                        "name": "Johan Wolswinkel",
+                        "url": "https://openreview.net/profile?id=~Johan_Wolswinkel1",
+                        "jobTitle": "Program Committee Member",
+                        "affiliation": { "@type": "Organization", "name": "Tilburg University" }
+                    }
+                }
+            ]
+        }
+    ]
+}
+</script>

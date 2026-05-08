@@ -3,12 +3,17 @@ title: AI & Open Government Workshop
 description: Using AI and LLMs to Advance Open Government and Public Disclosure Laws Worldwide
 url: https://aiog.net
 baseurl: ""
+image: /header.jpg
+lang: en
 
 # Build settings
 markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: false
+
+plugins:
+  - jekyll-sitemap
 
 # Exclude from processing
 exclude:

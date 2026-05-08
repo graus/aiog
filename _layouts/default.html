@@ -1,44 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ site.lang | default: 'en' }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }} @ ICAIL 2026</title>
-    <meta name="description" content="{{ site.description }}">
-    <meta name="keywords" content="AI, open government, FOIA, freedom of information, LLM, ICAIL 2026, public disclosure, transparency, government records, sensitivity review">
+    {%- assign page_title = page.title | default: "" -%}
+    {%- if page_title != "" -%}
+        {%- assign full_title = page_title | append: " | " | append: site.title | append: " @ ICAIL 2026" -%}
+    {%- else -%}
+        {%- assign full_title = site.title | append: " @ ICAIL 2026" -%}
+    {%- endif -%}
+    {%- assign page_description = page.description | default: site.description -%}
+    {%- assign page_image_path = page.image | default: site.image -%}
+    {%- assign page_image = page_image_path | absolute_url -%}
+    {%- assign page_url = page.url | absolute_url -%}
+    <title>{{ full_title }}</title>
+    <meta name="description" content="{{ page_description }}">
+    <meta name="keywords" content="{{ page.keywords | default: 'AI, open government, FOIA, freedom of information, LLM, ICAIL 2026, public disclosure, transparency, government records, sensitivity review' }}">
     <meta name="author" content="David Graus, Graham McDonald, Jason R. Baron">
     <meta name="robots" content="index, follow">
     <meta name="theme-color" content="#1a365d">
-    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+    <link rel="canonical" href="{{ page_url }}">
     <link rel="icon" type="image/svg+xml" href="{{ '/favicon.svg' | relative_url }}">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-    <meta property="og:title" content="{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }} @ ICAIL 2026">
-    <meta property="og:description" content="{{ site.description }}">
+    <meta property="og:url" content="{{ page_url }}">
+    <meta property="og:title" content="{{ full_title }}">
+    <meta property="og:description" content="{{ page_description }}">
+    <meta property="og:image" content="{{ page_image }}">
     <meta property="og:site_name" content="{{ site.title }}">
     <meta property="og:locale" content="en_US">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
-    <meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }} @ ICAIL 2026">
-    <meta name="twitter:description" content="{{ site.description }}">
+    <meta name="twitter:url" content="{{ page_url }}">
+    <meta name="twitter:title" content="{{ full_title }}">
+    <meta name="twitter:description" content="{{ page_description }}">
+    <meta name="twitter:image" content="{{ page_image }}">
 
     <!-- Social Profiles -->
     <link rel="me" href="https://bsky.app/profile/aiog.net">
 
-    <!-- Structured Data -->
+    <!-- Sitemap & feeds -->
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ '/sitemap.xml' | absolute_url }}">
+
+    <!-- Structured Data: Workshop Event (present on every page as the primary entity) -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "Event",
+        "@id": "https://aiog.net/#event",
         "name": "AI & Open Government Workshop",
+        "alternateName": "AIOG 2026",
         "description": "Using AI and LLMs to Advance Open Government and Public Disclosure Laws Worldwide",
         "url": "https://aiog.net/",
-        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "image": "https://aiog.net/header.jpg",
+        "startDate": "2026-06-08",
+        "endDate": "2026-06-08",
+        "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
         "eventStatus": "https://schema.org/EventScheduled",
+        "inLanguage": "en",
         "location": {
             "@type": "Place",
             "name": "Singapore Management University",
@@ -56,17 +77,28 @@
                 "@type": "Person",
                 "name": "David Graus",
                 "url": "https://graus.nu",
-                "affiliation": "University of Amsterdam"
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "University of Amsterdam"
+                }
             },
             {
                 "@type": "Person",
                 "name": "Graham McDonald",
-                "affiliation": "University of Glasgow"
+                "url": "https://www.dcs.gla.ac.uk/~graham/",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "University of Glasgow"
+                }
             },
             {
                 "@type": "Person",
                 "name": "Jason R. Baron",
-                "affiliation": "University of Maryland"
+                "url": "https://ischool.umd.edu/directory/jason-r-baron/",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "University of Maryland"
+                }
             }
         ],
         "superEvent": {
@@ -83,6 +115,24 @@
         ]
     }
     </script>
+
+    <!-- Structured Data: WebSite -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "@id": "https://aiog.net/#website",
+        "name": "AI & Open Government Workshop",
+        "url": "https://aiog.net/",
+        "inLanguage": "en",
+        "description": "Using AI and LLMs to Advance Open Government and Public Disclosure Laws Worldwide",
+        "publisher": { "@id": "https://aiog.net/#event" }
+    }
+    </script>
+
+    {% if page.structured_data %}
+    {{ page.structured_data }}
+    {% endif %}
 
     <script>if (location.hash === '#content') document.write('<style>html{scroll-behavior:auto!important}</style>');</script>
     <link rel="stylesheet" href="{{ '/style.css' | relative_url }}?v={{ site.time | date: '%s' }}">

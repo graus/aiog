@@ -2,6 +2,7 @@
 layout: default
 title: Important Dates
 permalink: /dates/
+description: Important dates and deadlines for the 1st AI & Open Government Workshop (AIOG) at ICAIL 2026, Singapore.
 ---
 
 <section id="dates" markdown="1">

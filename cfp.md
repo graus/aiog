@@ -2,6 +2,8 @@
 layout: default
 title: Call for Papers
 permalink: /cfp/
+description: Call for Papers — 1st AI & Open Government Workshop at ICAIL 2026. Topics include FOIA, sensitivity review, RAG for government records, and AI-assisted disclosure.
+keywords: AI, open government, FOIA, call for papers, ICAIL 2026, sensitivity review, LLM, public records, RAG
 ---
 
 <section id="cfp" markdown="1">
@@ -107,3 +109,61 @@ This workshop is relevant to a broad set of communities working on open governme
 - **Jason R. Baron**, [University of Maryland](https://umd.edu/) ([jrbaron@umd.edu](mailto:jrbaron@umd.edu))
 
 </section>
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": "https://aiog.net/cfp/#webpage",
+    "url": "https://aiog.net/cfp/",
+    "name": "Call for Papers — AI & Open Government Workshop 2026",
+    "description": "Call for Papers — 1st AI & Open Government Workshop at ICAIL 2026.",
+    "inLanguage": "en",
+    "isPartOf": { "@id": "https://aiog.net/#website" },
+    "mainEntity": {
+        "@type": "Event",
+        "@id": "https://aiog.net/#event",
+        "name": "AI & Open Government Workshop",
+        "url": "https://aiog.net/",
+        "startDate": "2026-06-08",
+        "endDate": "2026-06-08",
+        "subEvent": [
+            {
+                "@type": "Event",
+                "name": "Paper Submission Deadline",
+                "startDate": "2026-04-16T23:59:00-12:00",
+                "endDate": "2026-04-16T23:59:00-12:00",
+                "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                "eventStatus": "https://schema.org/EventCompleted",
+                "location": { "@type": "VirtualLocation", "url": "https://submit.aiog.net" }
+            },
+            {
+                "@type": "Event",
+                "name": "Notification of Acceptance",
+                "startDate": "2026-05-04",
+                "endDate": "2026-05-04",
+                "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                "eventStatus": "https://schema.org/EventCompleted",
+                "location": { "@type": "VirtualLocation", "url": "https://aiog.net/" }
+            },
+            {
+                "@type": "Event",
+                "name": "Camera-Ready Deadline",
+                "startDate": "2026-05-20",
+                "endDate": "2026-05-20",
+                "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+                "eventStatus": "https://schema.org/EventScheduled",
+                "location": { "@type": "VirtualLocation", "url": "https://aiog.net/" }
+            }
+        ]
+    },
+    "about": [
+        "AI-augmented search and summarization for public records",
+        "Technology-assisted review for FOIA",
+        "Automated sensitivity review and redaction",
+        "Multimodal processing of government archives",
+        "Retrieval Augmented Generation for public records",
+        "AI-assisted declassification"
+    ]
+}
+</script>

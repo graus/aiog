@@ -2,6 +2,7 @@
 layout: default
 title: Keynotes
 permalink: /keynotes/
+description: Keynote speakers at the 1st AI & Open Government Workshop (AIOG) at ICAIL 2026, Singapore.
 ---
 
 <section id="keynotes" markdown="1">

@@ -1379,19 +1379,6 @@ a.prog-paper-title:hover {
     line-height: 1.55;
 }
 
-.prog-why {
-    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
-    border-radius: 10px;
-    padding: 18px 22px;
-    color: rgba(255, 255, 255, 0.9);
-    font-size: 0.9rem;
-    line-height: 1.6;
-}
-
-.prog-why strong {
-    color: #fbbf24;
-}
-
 @media (max-width: 640px) {
     .prog-slot,
     .prog-summary,

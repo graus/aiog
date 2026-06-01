@@ -235,9 +235,6 @@ description: Draft program and schedule for the 1st AI & Open Government Worksho
                     <p>Representatives join Jaap Kamps and Kripabandhu Ghosh on stage. We also ensure representation of virtual attendees.</p>
                 </div>
             </div>
-            <div class="prog-why">
-                <strong>Why this way:</strong> the questions come from the room rather than a fixed script.
-            </div>
         </div>
     </details>
 

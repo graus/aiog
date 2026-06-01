@@ -217,7 +217,7 @@ description: Draft program and schedule for the 1st AI & Open Government Worksho
             <span class="prog-chevron" aria-hidden="true">▾</span>
         </summary>
         <div class="prog-panel-body">
-            <p class="prog-panel-lead">Our proposed format. Both keynote speakers — <strong>Jaap Kamps</strong> and <strong>Kripabandhu Ghosh</strong> — sit on the panel, so there is a panel either way. The interactive steps below build the agenda from the room, and depend on active participation throughout the day.</p>
+            <p class="prog-panel-lead">A panel with both keynote speakers — <strong>Jaap Kamps</strong> and <strong>Kripabandhu Ghosh</strong> — joined by representatives of the lunch breakout groups, who carry forward the questions raised around the prompts we provide.</p>
             <div class="prog-steps">
                 <div class="prog-step">
                     <span class="prog-step-num">1</span>

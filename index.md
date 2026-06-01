@@ -7,12 +7,12 @@ description: The 1st AI & Open Government Workshop (AIOG) at ICAIL 2026, Singapo
 
 <aside class="papers-spotlight" aria-labelledby="spotlight-heading">
     <div class="spotlight-text">
-        <p class="spotlight-eyebrow">New · May 2026</p>
-        <h2 id="spotlight-heading">Camera-ready PDFs of all 14 accepted papers are now available.</h2>
+        <p class="spotlight-eyebrow">New · June 2026</p>
+        <h2 id="spotlight-heading">The preliminary program is out, with two confirmed keynote speakers.</h2>
     </div>
     <div class="spotlight-actions">
-        <a class="spotlight-cta" href="/accepted-papers/">Browse papers →</a>
-        <a class="spotlight-cta-secondary" href="https://openreview.net/group?id=smu.edu.sg/SMU/ICAIL/2026/Workshop/AIOG#tab-accept" target="_blank" rel="noopener">OpenReview ↗</a>
+        <a class="spotlight-cta" href="/program/">View program →</a>
+        <a class="spotlight-cta-secondary" href="/keynotes/">Keynotes ↗</a>
     </div>
 </aside>
 

@@ -1138,6 +1138,23 @@ table td strong {
     color: #8b5cf6;
 }
 
+.prog-keynote-body {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+.prog-keynote-photo {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top center;
+    flex-shrink: 0;
+    background: #e2e8f0;
+    box-shadow: 0 2px 8px rgba(15, 23, 42, 0.15);
+}
+
 /* Breaks — muted, dashed */
 .prog-break {
     background: #f8fafc;
@@ -1394,6 +1411,103 @@ a.prog-paper-title:hover {
 
     .prog-steps {
         grid-template-columns: 1fr;
+    }
+}
+
+/* ===== Keynotes ===== */
+.keynote-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 8px;
+}
+
+.keynote {
+    display: grid;
+    grid-template-columns: 160px 1fr;
+    gap: 28px;
+    align-items: start;
+    background: linear-gradient(135deg, #faf5ff 0%, #f1f5f9 100%);
+    border: 1px solid #e8edf3;
+    border-left: 4px solid #8b5cf6;
+    border-radius: 14px;
+    padding: 28px 30px;
+    transition: box-shadow 0.3s ease;
+}
+
+.keynote:hover {
+    box-shadow: 0 8px 24px rgba(139, 92, 246, 0.12);
+}
+
+.keynote-photo {
+    width: 160px;
+    height: 180px;
+    object-fit: cover;
+    object-position: top center;
+    border-radius: 12px;
+    background: #e2e8f0;
+    box-shadow: 0 4px 14px rgba(15, 23, 42, 0.12);
+}
+
+.keynote-info {
+    min-width: 0;
+}
+
+.keynote-info .prog-tag {
+    color: #8b5cf6;
+}
+
+.keynote-info h3 {
+    font-size: 1.4rem;
+    margin: 0 0 4px;
+}
+
+.keynote-info h3 a {
+    color: #1e3a5f;
+    border-bottom: none;
+}
+
+.keynote-info h3 a:hover {
+    color: #8b5cf6;
+}
+
+.keynote-affil {
+    color: #8b5cf6;
+    font-weight: 600;
+    font-size: 0.95rem;
+    margin: 0 0 14px;
+}
+
+.keynote-talk {
+    color: #334155;
+    margin: 0 0 14px;
+}
+
+.keynote-talk strong {
+    color: #1e3a5f;
+}
+
+.keynote-links {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.keynote-links a {
+    font-weight: 600;
+    border-bottom: none;
+}
+
+@media (max-width: 600px) {
+    .keynote {
+        grid-template-columns: 1fr;
+        gap: 18px;
+        justify-items: start;
+        padding: 24px;
+    }
+
+    .keynote-photo {
+        width: 120px;
+        height: 135px;
     }
 }
 

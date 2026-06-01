@@ -29,11 +29,14 @@ description: Draft program and schedule for the 1st AI & Open Government Worksho
 
     <div class="prog-slot prog-keynote">
         <span class="prog-time">09:15 – 10:00</span>
-        <div class="prog-body">
-            <span class="prog-tag">Keynote 1</span>
-            <h3><a href="https://e.humanities.uva.nl/" target="_blank" rel="noopener">Jaap Kamps</a></h3>
-            <p class="prog-affil">University of Amsterdam · ICAI OpenGov Lab</p>
-            <p class="prog-byline">Information-retrieval challenges in open government and archival disclosure — an opening overview of the field.</p>
+        <div class="prog-body prog-keynote-body">
+            <img class="prog-keynote-photo" src="/images/keynotes/jaap-kamps.jpg" alt="Jaap Kamps" loading="lazy" width="64" height="64">
+            <div>
+                <span class="prog-tag">Keynote 1</span>
+                <h3><a href="https://e.humanities.uva.nl/" target="_blank" rel="noopener">Jaap Kamps</a></h3>
+                <p class="prog-affil">University of Amsterdam · ICAI OpenGov Lab</p>
+                <p class="prog-byline">Information-retrieval challenges in open government and archival disclosure — an opening overview of the field.</p>
+            </div>
         </div>
     </div>
 
@@ -130,11 +133,14 @@ description: Draft program and schedule for the 1st AI & Open Government Worksho
 
     <div class="prog-slot prog-keynote">
         <span class="prog-time">13:30 – 14:15</span>
-        <div class="prog-body">
-            <span class="prog-tag">Keynote 2</span>
-            <h3><a href="https://sites.google.com/view/kripabandhughosh-homepage/home" target="_blank" rel="noopener">Kripabandhu Ghosh</a></h3>
-            <p class="prog-affil">Indian Institute of Science Education and Research (IISER) Kolkata</p>
-            <p class="prog-byline">Explainable AI for the Indian legal system, with a focus on large language models.</p>
+        <div class="prog-body prog-keynote-body">
+            <img class="prog-keynote-photo" src="/images/keynotes/kripabandhu-ghosh.jpg" alt="Kripabandhu Ghosh" loading="lazy" width="64" height="64">
+            <div>
+                <span class="prog-tag">Keynote 2</span>
+                <h3><a href="https://sites.google.com/view/kripabandhughosh-homepage/home" target="_blank" rel="noopener">Kripabandhu Ghosh</a></h3>
+                <p class="prog-affil">Indian Institute of Science Education and Research (IISER) Kolkata</p>
+                <p class="prog-byline">Explainable AI for the Indian legal system, with a focus on large language models.</p>
+            </div>
         </div>
     </div>
 

@@ -1474,6 +1474,29 @@ a.prog-paper-title:hover {
     color: #1e3a5f;
 }
 
+.keynote-talk-title {
+    font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 600;
+    color: #1e3a5f;
+    font-size: 1.08rem;
+    line-height: 1.4;
+    margin: 0 0 12px;
+}
+
+.keynote-abstract p {
+    color: #334155;
+    font-size: 0.95rem;
+    margin: 0 0 10px;
+}
+
+.keynote-abstract p:last-child {
+    margin-bottom: 14px;
+}
+
+.keynote-abstract strong {
+    color: #1e3a5f;
+}
+
 .keynote-links {
     margin: 0;
     font-size: 0.9rem;

@@ -19,7 +19,13 @@ description: Keynote speakers at the 1st AI & Open Government Workshop (AIOG) at
             <span class="prog-tag">Keynote 1 · 09:15</span>
             <h3><a href="https://e.humanities.uva.nl/" target="_blank" rel="noopener">Jaap Kamps</a></h3>
             <p class="keynote-affil">University of Amsterdam · ICAI OpenGov Lab</p>
-            <p class="keynote-talk">Information-retrieval challenges in open government and archival disclosure — an opening overview of the field.</p>
+            <p class="keynote-talk-title">The FOIA Challenge: Turning Blackbox Answer Generation into Transparent Evidence Finding</p>
+            <div class="keynote-abstract">
+                <p>Journalists and citizens must extract precise evidence from massive, messy, often redacted FOIA releases, while current search and LLM systems behave as black boxes that generate fluent answers without reliable grounding in the underlying records.</p>
+                <p>This is a technically demanding IR/LLM/RAG problem on fully open, high-stakes data, where errors, omissions, and bias directly affect transparency, accountability, and public trust in government.</p>
+                <p>We present a three-part agenda — <strong>harvest</strong> (construct rich, well-structured FOIA corpora), <strong>search</strong> (granular, provenance-aware retrieval and evidence aggregation), and <strong>interact</strong> (summarisation, simplification, and conversational exploration that expose their sources) — that turns opaque answer generation into transparent, verifiable evidence finding.</p>
+                <p>More generally, we gain practical tools that speed up lawful disclosure and empower watchdogs, as well as a rigorous, real-world testbed that pushes IR and GenAI beyond black-box answers toward accountable, evidence-centered information access.</p>
+            </div>
             <p class="keynote-links"><a href="https://e.humanities.uva.nl/" target="_blank" rel="noopener">Homepage ↗</a></p>
         </div>
     </article>

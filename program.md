@@ -35,7 +35,7 @@ description: Draft program and schedule for the 1st AI & Open Government Worksho
                 <span class="prog-tag">Keynote 1</span>
                 <h3><a href="https://e.humanities.uva.nl/" target="_blank" rel="noopener">Jaap Kamps</a></h3>
                 <p class="prog-affil">University of Amsterdam · ICAI OpenGov Lab</p>
-                <p class="prog-byline">Information-retrieval challenges in open government and archival disclosure — an opening overview of the field.</p>
+                <p class="prog-byline">“The FOIA Challenge: Turning Blackbox Answer Generation into Transparent Evidence Finding”</p>
             </div>
         </div>
     </div>

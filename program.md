@@ -50,8 +50,8 @@ description: Draft program and schedule for the 1st AI & Open Government Worksho
             <div class="prog-paper">
                 <span class="prog-paper-time">10:00 – 10:15</span>
                 <span>
-                    <a class="prog-paper-title" href="/papers/sarin_2026_sea_observatory.pdf">From Discovery to Verifiable Reuse — A Human-Curated Regional Resource for AI Governance</a>
-                    <span class="prog-paper-speaker">TBD <span class="prog-inperson">in person</span></span>
+                    <a class="prog-paper-title" href="/papers/schnitzhofer_2026_digital_twins.pdf">Digital Twins of Legislation for Explainable ADM in Administrative Law</a>
+                    <span class="prog-paper-speaker">Florian Schnitzhofer <span class="prog-inperson">in person</span></span>
                 </span>
             </div>
             <div class="prog-paper">
@@ -189,8 +189,8 @@ description: Draft program and schedule for the 1st AI & Open Government Worksho
             <div class="prog-paper">
                 <span class="prog-paper-time">15:45 – 16:00</span>
                 <span>
-                    <a class="prog-paper-title" href="/papers/schnitzhofer_2026_digital_twins.pdf">Digital Twins of Legislation for Explainable ADM in Administrative Law</a>
-                    <span class="prog-paper-speaker">Florian Schnitzhofer</span>
+                    <a class="prog-paper-title" href="/papers/sarin_2026_sea_observatory.pdf">From Discovery to Verifiable Reuse — A Human-Curated Regional Resource for AI Governance</a>
+                    <span class="prog-paper-speaker">Gordon Cheung</span>
                 </span>
             </div>
         </div>

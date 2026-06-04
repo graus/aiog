@@ -132,7 +132,7 @@ description: Draft program and schedule for the 1st AI & Open Government Worksho
     </div>
 
     <div class="prog-slot prog-keynote">
-        <span class="prog-time">13:30 – 14:15</span>
+        <span class="prog-time">13:30 – 14:30</span>
         <div class="prog-body prog-keynote-body">
             <img class="prog-keynote-photo" src="/images/keynotes/kripabandhu-ghosh.jpg" alt="Kripabandhu Ghosh" loading="lazy" width="64" height="64">
             <div>
@@ -146,48 +146,48 @@ description: Draft program and schedule for the 1st AI & Open Government Worksho
 
     <details class="prog-collapse prog-session prog-c">
         <summary class="prog-summary">
-            <span class="prog-time">14:15 – 15:45</span>
+            <span class="prog-time">14:30 – 16:00</span>
             <span class="prog-body"><span class="prog-h">Paper Session C<span class="prog-count">6 papers</span></span></span>
             <span class="prog-chevron" aria-hidden="true">▾</span>
         </summary>
         <div class="prog-papers">
             <div class="prog-paper">
-                <span class="prog-paper-time">14:15 – 14:30</span>
+                <span class="prog-paper-time">14:30 – 14:45</span>
                 <span>
                     <a class="prog-paper-title" href="/papers/doi_2026_jgovccc.pdf">JGovCCC-PDL: Japanese Government Contract Clause Corpus</a>
                     <span class="prog-paper-speaker">Nobushige Doi</span>
                 </span>
             </div>
             <div class="prog-paper">
-                <span class="prog-paper-time">14:30 – 14:45</span>
+                <span class="prog-paper-time">14:45 – 15:00</span>
                 <span>
                     <a class="prog-paper-title" href="/papers/chizheva_2026_eu_ai_act.pdf">Algorithmic Documentation and the Limits of FOI: The EU AI Act's Two-Track Disclosure Architecture</a>
                     <span class="prog-paper-speaker">Olesia Chizheva</span>
                 </span>
             </div>
             <div class="prog-paper">
-                <span class="prog-paper-time">14:45 – 15:00</span>
+                <span class="prog-paper-time">15:00 – 15:15</span>
                 <span>
                     <a class="prog-paper-title" href="/papers/ates_2026_zero_shot_redaction.pdf">Zero-Shot Vision-Language Models for Redaction Detection and Page-Stream Segmentation</a>
                     <span class="prog-paper-speaker">Özgür Ateş</span>
                 </span>
             </div>
             <div class="prog-paper">
-                <span class="prog-paper-time">15:00 – 15:15</span>
+                <span class="prog-paper-time">15:15 – 15:30</span>
                 <span>
                     <a class="prog-paper-title" href="/papers/larooij_2026_deliberative.pdf">To Redact, or not to Redact? A Local LLM Approach to Deliberative Process Privilege Classification</a>
                     <span class="prog-paper-speaker">Maik Larooij</span>
                 </span>
             </div>
             <div class="prog-paper">
-                <span class="prog-paper-time">15:15 – 15:30</span>
+                <span class="prog-paper-time">15:30 – 15:45</span>
                 <span>
                     <a class="prog-paper-title" href="/papers/mckechnie_2026_cascading.pdf">Perspectives on Cascading Pipelines for Sensitivity-Aware Search</a>
                     <span class="prog-paper-speaker">Jack McKechnie</span>
                 </span>
             </div>
             <div class="prog-paper">
-                <span class="prog-paper-time">15:30 – 15:45</span>
+                <span class="prog-paper-time">15:45 – 16:00</span>
                 <span>
                     <a class="prog-paper-title" href="/papers/schnitzhofer_2026_digital_twins.pdf">Digital Twins of Legislation for Explainable ADM in Administrative Law</a>
                     <span class="prog-paper-speaker">Florian Schnitzhofer</span>
@@ -195,13 +195,6 @@ description: Draft program and schedule for the 1st AI & Open Government Worksho
             </div>
         </div>
     </details>
-
-    <div class="prog-slot prog-plenary">
-        <span class="prog-time">15:45 – 16:00</span>
-        <div class="prog-body">
-            <h3>Buffer / transition</h3>
-        </div>
-    </div>
 
     <div class="prog-slot prog-break">
         <span class="prog-time">16:00 – 16:30</span>

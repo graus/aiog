@@ -114,7 +114,7 @@ description: The 1st AI & Open Government Workshop (AIOG) at ICAIL 2026, Singapo
 |---|---|
 | Paper submission deadline | **~~April 16, 2026~~** |
 | Notification of acceptance | **~~May 4, 2026~~** |
-| Camera-ready deadline | **May 20, 2026** |
+| Camera-ready deadline | **~~May 20, 2026~~** |
 | Workshop date | **June 8, 2026** |
 
 [View all dates](/dates/)

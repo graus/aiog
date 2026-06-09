@@ -8,13 +8,23 @@ description: The 1st AI & Open Government Workshop (AIOG) at ICAIL 2026, Singapo
 <aside class="papers-spotlight" aria-labelledby="spotlight-heading">
     <div class="spotlight-text">
         <p class="spotlight-eyebrow">Thank you · June 2026</p>
-        <h2 id="spotlight-heading">The workshop has concluded — thank you to everyone who joined us in Singapore. Photos and highlights are coming soon.</h2>
+        <h2 id="spotlight-heading">The workshop has concluded — thank you to everyone who joined us in Singapore.</h2>
     </div>
     <div class="spotlight-actions">
         <a class="spotlight-cta" href="/program/">Final program →</a>
         <a class="spotlight-cta-secondary" href="/keynotes/">Keynotes ↗</a>
     </div>
 </aside>
+
+<section id="highlights" class="highlights" aria-labelledby="highlights-heading">
+<h2 id="highlights-heading">Highlights</h2>
+<div class="photo-strip">
+    <figure class="photo-card">
+        <img src="/images/photos/aiog-panel.jpg" alt="Interactive panel at the workshop: Kripabandhu Ghosh seated at left and Jaap Kamps holding the microphone, with remote panelist Jason R. Baron on the screen behind them." loading="lazy" width="1471" height="1600">
+        <figcaption>The interactive panel — Kripabandhu Ghosh and Jaap Kamps in conversation, with Jason R. Baron joining remotely.</figcaption>
+    </figure>
+</div>
+</section>
 
 <section id="latest-news" class="latest-news">
 <h2>Latest News</h2>

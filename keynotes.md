@@ -26,6 +26,10 @@ description: Keynote speakers at the 1st AI & Open Government Workshop (AIOG) at
                 <p>We present a three-part agenda — <strong>harvest</strong> (construct rich, well-structured FOIA corpora), <strong>search</strong> (granular, provenance-aware retrieval and evidence aggregation), and <strong>interact</strong> (summarisation, simplification, and conversational exploration that expose their sources) — that turns opaque answer generation into transparent, verifiable evidence finding.</p>
                 <p>More generally, we gain practical tools that speed up lawful disclosure and empower watchdogs, as well as a rigorous, real-world testbed that pushes IR and GenAI beyond black-box answers toward accountable, evidence-centered information access.</p>
             </div>
+            <figure class="keynote-talkshot">
+                <img src="/images/photos/aiog-keynote-kamps.jpg" alt="Jaap Kamps presenting his keynote, gesturing toward a slide titled &quot;FOIA Search Tomorrow&quot;." loading="lazy" width="1600" height="1408">
+                <figcaption>Jaap Kamps presenting at the workshop.</figcaption>
+            </figure>
             <p class="keynote-links"><a href="https://e.humanities.uva.nl/" target="_blank" rel="noopener">Homepage ↗</a></p>
         </div>
     </article>
@@ -37,6 +41,10 @@ description: Keynote speakers at the 1st AI & Open Government Workshop (AIOG) at
             <h3><a href="https://sites.google.com/view/kripabandhughosh-homepage/home" target="_blank" rel="noopener">Kripabandhu Ghosh</a></h3>
             <p class="keynote-affil">Indian Institute of Science Education and Research (IISER) Kolkata</p>
             <p class="keynote-talk">Explainable AI for the Indian legal system, with a focus on large language models.</p>
+            <figure class="keynote-talkshot">
+                <img src="/images/photos/aiog-keynote-ghosh.jpg" alt="Kripabandhu Ghosh presenting his keynote, with his title slide &quot;Explainable AI in the Indian Legal System&quot; on screen." loading="lazy" width="1600" height="1444">
+                <figcaption>Kripabandhu Ghosh presenting at the workshop.</figcaption>
+            </figure>
             <p class="keynote-links"><a href="https://sites.google.com/view/kripabandhughosh-homepage/home" target="_blank" rel="noopener">Homepage ↗</a></p>
         </div>
     </article>

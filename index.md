@@ -7,11 +7,11 @@ description: The 1st AI & Open Government Workshop (AIOG) at ICAIL 2026, Singapo
 
 <aside class="papers-spotlight" aria-labelledby="spotlight-heading">
     <div class="spotlight-text">
-        <p class="spotlight-eyebrow">New · June 2026</p>
-        <h2 id="spotlight-heading">The preliminary program is out, with two confirmed keynote speakers.</h2>
+        <p class="spotlight-eyebrow">Thank you · June 2026</p>
+        <h2 id="spotlight-heading">The workshop has concluded — thank you to everyone who joined us in Singapore. Photos and highlights are coming soon.</h2>
     </div>
     <div class="spotlight-actions">
-        <a class="spotlight-cta" href="/program/">View program →</a>
+        <a class="spotlight-cta" href="/program/">Final program →</a>
         <a class="spotlight-cta-secondary" href="/keynotes/">Keynotes ↗</a>
     </div>
 </aside>
@@ -115,7 +115,7 @@ description: The 1st AI & Open Government Workshop (AIOG) at ICAIL 2026, Singapo
 | Paper submission deadline | **~~April 16, 2026~~** |
 | Notification of acceptance | **~~May 4, 2026~~** |
 | Camera-ready deadline | **~~May 20, 2026~~** |
-| Workshop date | **June 8, 2026** |
+| Workshop date | **~~June 8, 2026~~** |
 
 [View all dates](/dates/)
 
@@ -140,7 +140,7 @@ The workshop will solicit written submissions, including original research paper
 
 ## Workshop Structure
 
-The workshop will be held as a full-day pre-conference event, structured in four parts:
+The workshop was held as a full-day pre-conference event, structured in four parts:
 
 <div class="workshop-parts">
     <div class="workshop-part">

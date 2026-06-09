@@ -2,7 +2,7 @@
 layout: default
 title: Program
 permalink: /program/
-description: Draft program and schedule for the 1st AI & Open Government Workshop (AIOG) at ICAIL 2026, Singapore — two keynotes, 14 paper presentations across three sessions, and an interactive panel.
+description: Final program and schedule for the 1st AI & Open Government Workshop (AIOG) at ICAIL 2026, Singapore — two keynotes, 14 paper presentations across three sessions, and an interactive panel.
 ---
 
 <section id="program">
@@ -10,8 +10,8 @@ description: Draft program and schedule for the 1st AI & Open Government Worksho
 <h2>Program</h2>
 
 <div class="prog-intro">
-    <p><strong>Draft program · Monday, June 8, 2026.</strong> A full-day pre-conference workshop: two keynotes, 14 peer-reviewed paper presentations across three sessions, and an interactive closing panel.</p>
-    <p>Times are provisional. We follow the tea and lunch breaks of the main <a href="https://icail2026.smu.edu.sg/" target="_blank" rel="noopener">ICAIL 2026</a> conference. Tap a paper session to expand it.</p>
+    <p><strong>Final program · Monday, June 8, 2026.</strong> A full-day pre-conference workshop: two keynotes, 14 peer-reviewed paper presentations across three sessions, and an interactive closing panel.</p>
+    <p>The workshop followed the tea and lunch breaks of the main <a href="https://icail2026.smu.edu.sg/" target="_blank" rel="noopener">ICAIL 2026</a> conference. Tap a paper session to expand it.</p>
 </div>
 
 <div class="prog-controls">

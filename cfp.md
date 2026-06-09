@@ -77,8 +77,8 @@ Authors of accepted papers will be invited to present their work in person in Si
 |---|---|
 | Paper submission deadline | **~~April 16, 2026~~** |
 | Notification of acceptance | **~~May 4, 2026~~** |
-| Camera-ready deadline | **May 20, 2026** |
-| Workshop date | **June 8, 2026** |
+| Camera-ready deadline | **~~May 20, 2026~~** |
+| Workshop date | **~~June 8, 2026~~** |
 
 *All deadlines are 23:59 AoE (Anywhere on Earth) time.*
 
@@ -127,6 +127,7 @@ This workshop is relevant to a broad set of communities working on open governme
         "url": "https://aiog.net/",
         "startDate": "2026-06-08",
         "endDate": "2026-06-08",
+        "eventStatus": "https://schema.org/EventCompleted",
         "subEvent": [
             {
                 "@type": "Event",
@@ -152,7 +153,7 @@ This workshop is relevant to a broad set of communities working on open governme
                 "startDate": "2026-05-20",
                 "endDate": "2026-05-20",
                 "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-                "eventStatus": "https://schema.org/EventScheduled",
+                "eventStatus": "https://schema.org/EventCompleted",
                 "location": { "@type": "VirtualLocation", "url": "https://aiog.net/" }
             }
         ]

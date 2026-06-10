@@ -7,6 +7,7 @@ description: The 1st AI & Open Government Workshop (AIOG) at ICAIL 2026, Singapo
 
 <section id="highlights" class="highlights" aria-labelledby="highlights-heading">
 <h2 id="highlights-heading">Highlights</h2>
+<p class="highlights-intro">The workshop took place on June 8, 2026 in Singapore, and has now concluded — thank you to everyone who joined us.</p>
 <div class="photo-strip">
     <figure class="photo-card photo-card-wide">
         <img src="/images/photos/aiog-group.jpg" alt="Group photo of the AI &amp; Open Government Workshop participants standing together in the lecture room, with remote attendees joining on the screens behind them." loading="lazy" width="2000" height="1280">

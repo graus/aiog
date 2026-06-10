@@ -5,17 +5,6 @@ permalink: /
 description: The 1st AI & Open Government Workshop (AIOG) at ICAIL 2026, Singapore — exploring how AI and LLMs can advance open government, FOIA, and public disclosure laws worldwide.
 ---
 
-<aside class="papers-spotlight" aria-labelledby="spotlight-heading">
-    <div class="spotlight-text">
-        <p class="spotlight-eyebrow">Thank you · June 2026</p>
-        <h2 id="spotlight-heading">The workshop has concluded — thank you to everyone who joined us in Singapore.</h2>
-    </div>
-    <div class="spotlight-actions">
-        <a class="spotlight-cta" href="/program/">Final program →</a>
-        <a class="spotlight-cta-secondary" href="/keynotes/">Keynotes ↗</a>
-    </div>
-</aside>
-
 <section id="highlights" class="highlights" aria-labelledby="highlights-heading">
 <h2 id="highlights-heading">Highlights</h2>
 <div class="photo-strip">

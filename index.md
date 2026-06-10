@@ -27,6 +27,14 @@ description: The 1st AI & Open Government Workshop (AIOG) at ICAIL 2026, Singapo
         <img src="/images/photos/aiog-panel.jpg" alt="Interactive panel at the workshop: Kripabandhu Ghosh seated at left and Jaap Kamps holding the microphone, with remote panelist Jason R. Baron on the screen behind them." loading="lazy" width="1471" height="1600">
         <figcaption>The interactive panel — Kripabandhu Ghosh and Jaap Kamps in conversation, with Jason R. Baron joining remotely.</figcaption>
     </figure>
+    <figure class="photo-card">
+        <img src="/images/photos/aiog-keynote-kamps.jpg" alt="Jaap Kamps presenting his keynote, gesturing toward a slide titled &quot;FOIA Search Tomorrow&quot;." loading="lazy" width="1600" height="1408">
+        <figcaption>Jaap Kamps delivering his keynote.</figcaption>
+    </figure>
+    <figure class="photo-card">
+        <img src="/images/photos/aiog-keynote-ghosh.jpg" alt="Kripabandhu Ghosh presenting his keynote, with his title slide &quot;Explainable AI in the Indian Legal System&quot; on screen." loading="lazy" width="1600" height="1444">
+        <figcaption>Kripabandhu Ghosh delivering his keynote.</figcaption>
+    </figure>
 </div>
 
 <div class="thank-you" markdown="1">

@@ -35,7 +35,7 @@ description: The 1st AI & Open Government Workshop (AIOG) at ICAIL 2026, Singapo
 
 What a day! We are deeply grateful to everyone who made the 1st AI &amp; Open Government Workshop possible. Thank you to our keynote speakers, **Jaap Kamps** and **Kripabandhu Ghosh**, for their inspiring talks; to our **presenting authors** for sharing their research and position papers; to our **program committee** for their careful and generous reviews; and to every **attendee — both in person in Singapore and joining virtually** from around the world. Your questions, ideas, and energy made this first edition a success.
 
-We are working on making recordings of the talks available — we'll share them here once they're ready. And while it isn't entirely ours to decide, the energy in the room was palpable throughout the day, and the closing panel left us convinced that this is a viable and worthwhile niche. The range of perspectives we were able to bring together for this first edition has us excited about where it could go. Stay tuned — we would love to see you again.
+We are working on making recordings of the talks available — we'll share them here once they're ready. The energy in the room was palpable throughout the day, and the closing panel reaffirmed our sense that this is a viable and worthwhile niche. The range of perspectives we were able to bring together for this first edition has us excited about where it could go. Stay tuned — we would love to see you again.
 
 </div>
 </section>

@@ -19,10 +19,22 @@ description: The 1st AI & Open Government Workshop (AIOG) at ICAIL 2026, Singapo
 <section id="highlights" class="highlights" aria-labelledby="highlights-heading">
 <h2 id="highlights-heading">Highlights</h2>
 <div class="photo-strip">
+    <figure class="photo-card photo-card-wide">
+        <img src="/images/photos/aiog-group.jpg" alt="Group photo of the AI &amp; Open Government Workshop participants standing together in the lecture room, with remote attendees joining on the screens behind them." loading="lazy" width="2000" height="1280">
+        <figcaption>The AI &amp; Open Government Workshop community — in-person participants in Singapore, with our virtual attendees joining on screen.</figcaption>
+    </figure>
     <figure class="photo-card">
         <img src="/images/photos/aiog-panel.jpg" alt="Interactive panel at the workshop: Kripabandhu Ghosh seated at left and Jaap Kamps holding the microphone, with remote panelist Jason R. Baron on the screen behind them." loading="lazy" width="1471" height="1600">
         <figcaption>The interactive panel — Kripabandhu Ghosh and Jaap Kamps in conversation, with Jason R. Baron joining remotely.</figcaption>
     </figure>
+</div>
+
+<div class="thank-you" markdown="1">
+
+### Thank you
+
+What a day! We are deeply grateful to everyone who made the 1st AI &amp; Open Government Workshop possible. Thank you to our keynote speakers, **Jaap Kamps** and **Kripabandhu Ghosh**, for their inspiring talks; to our **presenting authors** for sharing their research and position papers; to our **program committee** for their careful and generous reviews; and to every **attendee — both in person in Singapore and joining virtually** from around the world. Your questions, ideas, and energy made this first edition a success. We hope to see you again.
+
 </div>
 </section>
 

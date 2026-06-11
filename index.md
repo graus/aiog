@@ -25,6 +25,10 @@ description: The 1st AI & Open Government Workshop (AIOG) at ICAIL 2026, Singapo
         <img src="/images/photos/aiog-keynote-ghosh.jpg" alt="Kripabandhu Ghosh presenting his keynote, with his title slide &quot;Explainable AI in the Indian Legal System&quot; on screen." loading="lazy" width="1600" height="1444">
         <figcaption>Kripabandhu Ghosh delivering his keynote.</figcaption>
     </figure>
+    <figure class="photo-card">
+        <img src="/images/photos/aiog-keynote-ghosh-room.jpg" alt="Wide view of the tiered lecture room during Kripabandhu Ghosh's keynote, with the audience following along on their laptops as he presents at the front." loading="lazy" width="1600" height="1243">
+        <figcaption>Inside the lecture room during Kripabandhu Ghosh's keynote.</figcaption>
+    </figure>
 </div>
 
 <div class="thank-you" markdown="1">
